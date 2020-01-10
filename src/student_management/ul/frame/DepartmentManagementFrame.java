@@ -7,7 +7,7 @@ import student_management.ui.panel.DepartmentPanel;
 
 @SuppressWarnings("serial")
 public class DepartmentManagementFrame extends AbsManagementFrame<Department> {
-	private DepartmentPanel deptPanel;
+	private AbsItemPanel<Department> deptPanel;
 	
 	public DepartmentManagementFrame() {
 
